@@ -151,9 +151,9 @@ if st.session_state.answer_submitted:
             st.write("You Are In Stage 4")
         elif st.session_state.score>=60:
             st.write("You Are In Stage 3")
-        elif st.session_state.score>=40:
+        elif st.session_state.score>=30:
             st.write("You Are In Stage 2")
-        elif st.session_state.score>=20:
+        elif st.session_state.score>=0:
             st.write("You Are In Stage 1")
         
 else:
